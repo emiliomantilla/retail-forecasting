@@ -1,0 +1,28 @@
+# Core data and analysis
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.5.0
+
+# Machine learning & stats
+scikit-learn>=1.1.0
+statsmodels>=0.13.0
+
+# Time-series forecasting
+prophet>=1.1.1
+
+# Deep learning (for LSTM/TCN)
+tensorflow>=2.10.0
+
+# Optimization (inventory policy)
+pulp>=2.7.0
+
+# Automated profiling
+ydata-profiling>=4.0.0
+
+# Notebook support
+jupyter>=1.0.0
+
+# Kaggle API (for data download)
+kaggle>=1.5.12

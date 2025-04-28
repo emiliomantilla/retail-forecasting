@@ -1,0 +1,13 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+/retail-forecasting/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and logs
+/data/
+*.log
