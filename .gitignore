@@ -11,3 +11,5 @@ __pycache__/
 # Data and logs
 /data/
 *.log
+
+.DS_Store
