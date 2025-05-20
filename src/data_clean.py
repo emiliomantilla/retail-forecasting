@@ -57,9 +57,12 @@ def clean_sales(filename=None):
                 bad = (df[c] < 0).sum()
                 print(f"Filtering out {bad} negative values in '{c}'")
                 df = df[df[c] >= 0]
-
             # enforce numeric dtype
             df[c] = pd.to_numeric(df[c], errors="raise")
+
+    # 7) Filter to complete years (2022 & 2023 only)
+    if "Date" in df.columns:
+        df = df[df["Date"].dt.year.isin([2022, 2023])]
 
     return df
 
